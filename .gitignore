@@ -1,0 +1,15 @@
+# Capture output
+*.pcap
+*.pcapng
+*.cap
+*.csv
+*.kismet.csv
+*.kismet.netxml
+airsmith-captures/
+
+# Runtime state
+*.state
+
+# OS/editor cruft
+.DS_Store
+*.swp
