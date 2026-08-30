@@ -3,8 +3,8 @@
 ## v0.2.0
 - Added ANSI color scheme (teal/amber palette, distinct from other tools
   in this space).
-- Interface list now shows chipset (via `lspci`/`lsusb`), not just driver —
-  useful for spotting injection-capable adapters at a glance.
+- Interface list now shows chipset (via `lspci`/`lsusb`), not just driver.
+  Useful for spotting injection-capable adapters at a glance.
 - Added manual "Check for updates" menu option: compares local `VERSION`
   against the version in the GitHub repo's `main` branch, and offers
   `git pull` if run from a git checkout.

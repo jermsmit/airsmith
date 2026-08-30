@@ -3,7 +3,7 @@
 **"Walk This Wireless"**
 
 An interactive, menu-driven helper for putting Wi-Fi adapters into monitor
-mode for **passive** wireless capture and analysis -- (safe) no packet injection
+mode for **passive** wireless capture and analysis. No packet injection
 required or assumed. Built for learning wireless fundamentals with tools
 like Wireshark, tshark, and the aircrack-ng suite.
 
@@ -11,7 +11,7 @@ Created by Jermal Smith.
 
 ![AirSmith main menu](screenshots/main-menu.png)
 
-## Legal / Ethical Use Only
+## Legal / Ethical Use
 
 This tool is intended **only** for use on networks and devices you own, or
 where you have explicit written authorization to test. Wireless monitoring
@@ -48,7 +48,7 @@ for you (with confirmation, one at a time).
 
 ## A note on packet injection
 
-Not all Wi-Fi adapters support packet injection — notably, Intel's
+Not all Wi-Fi adapters support packet injection. Notably, Intel's
 `iwlwifi`-driven cards (AX200/AX201/AX210 series) support monitor mode but
 **not** injection, on any OS. AirSmith is built around passive
 capture/monitoring, which works fine on these cards. If you want to
@@ -68,7 +68,7 @@ Updates can be checked from within the tool itself (menu option), which
 compares your local version against the `main` branch on GitHub and offers
 to `git pull` if you're running from a clone.
 
-No `chmod +x` required — running via `bash` works out of the box. If you'd
+No `chmod +x` required. Running via `bash` works out of the box. If you'd
 prefer to run it as `./airsmith.sh` directly, mark it executable first:
 
 ```bash
@@ -78,4 +78,4 @@ sudo ./airsmith.sh
 
 ## License
 
-GPLv3 — see [LICENSE](LICENSE).
+GPLv3. See [LICENSE](LICENSE).

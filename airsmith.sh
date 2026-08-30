@@ -57,7 +57,7 @@ print_banner() {
 EOF
     echo -e "${C_RESET}"
     echo -e "${C_AMBER_BOLD}            \"Walk This Wireless\"${C_RESET}"
-    echo -e "${C_GRAY}          AirSmith v${VERSION} — by Jermal Smith${C_RESET}"
+    echo -e "${C_GRAY}          AirSmith v${VERSION}, by Jermal Smith${C_RESET}"
     echo -e "${C_GRAY}          ${REPO_URL}${C_RESET}"
     echo
     echo -e "${C_RED}  For use only on networks/devices you own or are"
@@ -231,7 +231,7 @@ check_for_updates() {
     echo
 
     if ! command -v curl >/dev/null 2>&1; then
-        echo -e "${C_RED}curl is not installed — can't check for updates.${C_RESET}"
+        echo -e "${C_RED}curl is not installed. Can't check for updates.${C_RESET}"
         echo "Install it with: sudo apt install curl"
         pause
         return
@@ -443,7 +443,7 @@ live_channel_survey() {
         return
     fi
     need_root
-    echo "Launching airodump-ng on $MON_IFACE — live channel/AP survey."
+    echo "Launching airodump-ng on $MON_IFACE. Live channel/AP survey."
     echo "Watch the CH column for active channels in your area."
     echo "Press Ctrl+C to stop and return to the menu."
     echo
