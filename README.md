@@ -3,7 +3,7 @@
 **"Walk This Wireless"**
 
 An interactive, menu-driven helper for putting Wi-Fi adapters into monitor
-mode for **passive** wireless capture and analysis — no packet injection
+mode for **passive** wireless capture and analysis -- (safe) no packet injection
 required or assumed. Built for learning wireless fundamentals with tools
 like Wireshark, tshark, and the aircrack-ng suite.
 
@@ -11,7 +11,7 @@ Created by Jermal Smith.
 
 ![AirSmith main menu](screenshots/main-menu.png)
 
-## ⚠️ Legal / Ethical Use
+## Legal / Ethical Use Only
 
 This tool is intended **only** for use on networks and devices you own, or
 where you have explicit written authorization to test. Wireless monitoring
