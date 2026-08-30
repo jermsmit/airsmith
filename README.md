@@ -16,7 +16,7 @@ Created by Jermal Smith.
 This tool is intended **only** for use on networks and devices you own, or
 where you have explicit written authorization to test. Wireless monitoring
 of networks you don't own or lack authorization for may be illegal in your
-jurisdiction. You are solely responsible for how you use this tool.
+jurisdiction. You are solely responsible for how you use this tool....
 
 ## What it does
 
